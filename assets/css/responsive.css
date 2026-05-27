@@ -85,7 +85,8 @@
   }
 
   .hero_banner {
-    min-height: 50vh;
+    min-height: auto;
+    padding: 64px 0 24px;
   }
 
   .hero_banner .bnr_content {
