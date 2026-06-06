@@ -1,4 +1,172 @@
-@media only screen and (min-width: 1440px) and (max-width: 1700px) {}
+@media only screen and (min-width: 1440px) and (max-width: 1700px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1151px;
+  }
+
+  .orb-1 {
+    width: 550px;
+    height: 550px;
+  }
+
+  .orb-2 {
+    width: 450px;
+    height: 450px;
+  }
+
+  .orb-3 {
+    width: 350px;
+    height: 350px;
+  }
+
+  h1 {
+    font: normal normal 600 68px var(--font-secondary);
+  }
+
+  h2 {
+    font: normal normal 600 42px var(--font-secondary);
+  }
+
+  h3 {
+    font: normal normal 600 36px var(--font-secondary);
+    letter-spacing: 0.36px;
+  }
+
+  h4 {
+    font: normal normal 600 30px var(--font-secondary);
+    letter-spacing: 0.52px;
+  }
+
+  h6 {
+    font: normal normal 500 18px var(--font-secondary);
+    letter-spacing: 0.4px;
+  }
+
+  p {
+    font: normal normal 400 14px / 22px var(--font-primary);
+  }
+
+  .btn {
+    font: normal normal 500 14px / 22px var(--font-secondary);
+  }
+
+  .btn img {
+    width: 20px;
+  }
+
+  .btn_primary,
+  .btn_secondary {
+    padding: 14px 24px;
+  }
+
+  .rn_section_gapTop {
+    padding: 64px 0;
+  }
+
+  .inner_gapTop {
+    margin-top: 36px;
+  }
+
+  .main_heading .badge_title {
+    font: normal normal 300 13px / 18px var(--font-secondary);
+    padding: 3px 14px;
+  }
+
+  .header {
+    top: 12px;
+  }
+
+  .header .nav-bar {
+    padding: 0 28px;
+    height: 58px;
+  }
+
+  .header .nav-bar .nav-wrapper .nav-item .nav-link {
+    font: normal normal 400 14px / 24px var(--font-secondary);
+  }
+
+  .hero_banner .bnr_content {
+    gap: 28px;
+  }
+
+  .hero_banner .bnr_content .top_badge {
+    padding: 6px 14px;
+    gap: 6px;
+  }
+
+  .hero_banner .bnr_content .top_badge img {
+    width: 22px;
+  }
+
+  .hero_banner .bnr_content .center_bnr {
+    gap: 12px;
+  }
+
+  .hero_banner .bnr_content .bottom_bnr {
+    gap: 24px;
+  }
+
+  .hero_banner .bnr_content .bottom_bnr .btn_groups {
+    gap: 20px;
+  }
+
+  .about_us .about_img img {
+    border-radius: 20px;
+  }
+
+  .about_us .about_content .description p {
+    margin-top: 12px;
+  }
+
+  .about_us .about_content .about_info {
+    margin: 28px 0;
+  }
+
+  .tech_stack .techStack_grid .grid_card {
+    padding: 18px;
+    border-radius: 14px;
+  }
+
+  .tech_stack .techStack_grid .grid_card img {
+    width: 36px;
+  }
+
+  .our_projects .row {
+    row-gap: 36px;
+  }
+
+  .our_services .card_box {
+    padding: 24px;
+    gap: 20px;
+  }
+
+  .our_services .card_box h2 {
+    font: normal normal 800 48px var(--font-number);
+  }
+
+  .our_projects .card_box .img_box {
+    height: 370px;
+    border-radius: 20px;
+  }
+
+  .our_projects .card_box .btn_visitSite {
+    font: normal normal 600 16px var(--font-secondary);
+  }
+
+  .contact_us .card_contact {
+    padding: 56px;
+    gap: 28px;
+  }
+
+  .contact_us .card_contact .top_box {
+    gap: 24px;
+  }
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1439px) {}
 
@@ -234,7 +402,7 @@
   }
 
   .contact_us .card_contact {
-    padding: 16px;
+    padding: 24px 16px;
     border-radius: 12px;
     gap: 16px;
   }
